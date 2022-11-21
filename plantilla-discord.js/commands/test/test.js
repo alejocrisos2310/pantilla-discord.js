@@ -1,11 +1,12 @@
 const { EmbedBuilder } = require('discord.js');
 
 module.exports = {
-    name: "npm",
+    name: "test",
     alias: [],
 
     async execute (client, message, args){
-
-
+        
+        message.reply("test");
+        
     }
 }
